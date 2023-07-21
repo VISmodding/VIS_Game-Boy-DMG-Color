@@ -24,8 +24,12 @@ I have several stuffs in mind and I will also share my normal Gameboy DMG work [
 
 ## Contacts
 
-email: vis.modding@gmail.com
+email: vis.modding@gmail.com <br />
 
 discord: you can find me as vis_modding on several servers (BennVenn, Mouse Bit Lab, Retrosix modding, Game Boy)
+
+
+
+
 
 
