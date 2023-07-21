@@ -13,4 +13,6 @@ If you choose to build this project yourself, be warned - this is a considerably
 
 **DO NOT attempt this project if you are uncomfortable or inexperienced with detailed electronics troubleshooting, or are not proficient in soldering! You will AT MINIMUM need to be proficient in drag soldering and hot air reflowing. If you have not gained proficiency in these soldering skills, DO NOT ATTEMPT THIS PROJECT.**
 
-(If you attempt the build, start with attempting to assemble DMGC-PWR-01. This is the toughest board to assemble, and it requires no donor components.)
+## Support VIS projects
+
+I have several stuffs in mind and I will also share my normal Gameboy DMG work [YouTube Channel](https://www.youtube.com/channel/UC17bQxOnCBejYQG4rzEg3jA) but, since developing these things has a high cost in materials and prototypes, a little [PayPal](https://www.paypal.com/donate/?hosted_button_id=RJM3TVFW38ZXL) donation is appreciated.
