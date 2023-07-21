@@ -23,7 +23,9 @@ If you choose to build this project yourself, be warned - this is a considerably
 I have several stuffs in mind and I will also share my normal Gameboy DMG work [YouTube Channel](https://www.youtube.com/channel/UC17bQxOnCBejYQG4rzEg3jA) but, since developing these things has a high cost in materials and prototypes, a little [PayPal](https://www.paypal.com/donate/?hosted_button_id=RJM3TVFW38ZXL) donation is appreciated.
 
 ## Contacts
+
 email: vis.modding@gmail.com
+
 discord: you can find me as vis_modding on several servers (BennVenn, Mouse Bit Lab, Retrosix modding, Game Boy)
 
 
