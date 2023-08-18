@@ -18,10 +18,6 @@ If you choose to build this project yourself, be warned - this is a considerably
 
 **DO NOT attempt this project if you are uncomfortable or inexperienced with detailed electronics troubleshooting or are not proficient in soldering! You will, AT MINIMUM, need to be proficient in drag soldering and hot air reflowing. If you have not gained proficiency in these soldering skills, DO NOT ATTEMPT THIS PROJECT.**
 
-## Power management
-
-If RGB LEDs and 1W speaker are installed, in order to have enough power for all the features, it is suggested to use another LDO on the power board (U4). For example, REG113NA-5/250 should be a good one. Alternatively, on the audio board, R2 and R4 resistors can be lowered a bit (for example you can use resistors around 20k to decrease maximum audio level).
-
 ## Support VIS projects
 
 I have several stuffs in mind, and I will also share my normal Gameboy DMG work [YouTube Channel](https://www.youtube.com/channel/UC17bQxOnCBejYQG4rzEg3jA), but since developing these things has a high cost in materials and prototypes, a little [PayPal](https://www.paypal.com/donate/?hosted_button_id=RJM3TVFW38ZXL) donation is appreciated.
