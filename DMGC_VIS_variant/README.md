@@ -4,8 +4,12 @@ This is a modified version of the [MouseBitLab](https://github.com/MouseBiteLabs
 - Lipo power board
 - Audio board with all the audio circuits on it in which 1w speaker or the original speaker is directly connected (Audio is not sent to the IPS front PCB and, for this reason, any power absorbing on the front PCB does not affect audio)
 - DMG donor is not required (only the link port is needed, and it can be sourced directly from the 4-player adapter DMG-07 which is cheap and can source 3 link ports)
-- Since the power DC is a new 2.5A jack, the problems related to it in the original DMGC are solved in this version  (DC Jack is a 2.5x0.7mm Jack and you can use a USB-C adapter with a standard USB-C 5v charger. Do not exceed 6v otherwise the charger will be broken).
-  
+- Since the power DC is a new 2.5A jack, the problems related to it in the original DMGC are solved in this version  (DC Jack is a 2.5x0.7mm Jack, and you can use a USB-C adapter with a standard USB-C 5v charger. Do not exceed 6v otherwise the charger will be broken).
+
+## UPDATED BOARD FILE!!!
+
+The 5v line sent to the IPS board is now a totally different line than the filtered 5v line used by the mainboard and audio board. This separation allows to elimination of all the noise added on the 5v line by IPS LCD and RGB LEDs. This means cleaner audio whose noise is amplified with 1 Watt speaker and very high volume.
+
 ## At the end of the production or easyEda files, there is the thickness of the PCBs to be used for production to have a good fit in the shell!!!
 
 ## Disclaimer
