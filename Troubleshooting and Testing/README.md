@@ -10,11 +10,21 @@ This is the order of testing I usually go in when assembling a DMGC. I recommend
 
 ### 1) Testing the output of the power switch
 
-If you place the CPU board (by itself) in the DMG shell and insert batteries, or use the DC jack, you can check the voltage with a multimeter on the VCC pad and SW hole that go to the PWR board. VCC should *always* read the battery or DC jack voltage, and SW should read zero when the power switch is off, and the same voltage as VCC when the power switch is on.
+First, you should populate the following parts on the CPU board:
 
-If VCC does not read any voltage (and you're using batteries), measure the voltage right at the battery terminals and check if it's zero there as well - sometimes using NiMH batteries in DMG shells causes poor contact with the battery tabs, because some NiMH batteries have shallower positive terminals than alkalines.
+![image](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/assets/97127539/79a81757-e111-48c3-9882-2dca77323d8e)
 
-Also, check the orientation of Q1. If it's backwards, you will be shorting the battery terminals together. In this case, you would read voltage across the battery terminals, but not on VCC itself.
+Then, if you place the CPU board (by itself) in the DMG shell and insert batteries, you can check the voltage with a multimeter on the VCC pad and SW hole that go to the PWR board. If you are testing with an A/C adapter, then you'll only be able to measure the voltage on the DC pin, so test with batteries first. 
+
+VCC should *always* read the battery voltage, and SW should read zero when the power switch is off, and the same voltage as VCC when the power switch is on.
+
+If VCC does not read any voltage, measure the voltage right at the battery terminals and check if it's zero there as well - sometimes using NiMH batteries in DMG shells causes poor contact with the battery tabs, because some NiMH batteries have shallower positive terminals than alkalines. If you get voltage at the terminals, then check all the parts in line between the battery tab and the VCC net in the diagram.
+
+- Check if F1 is blown.
+- Check Q1 orientation.
+- Check EM10 orientation. (Check with a meter in continuity mode if the top two pins are connected, and if the bottom two pins are connected - the ones connected by a horizontal line are the ones that should show connectivity).
+- Check if pins 3 and 4 on the DC jack are connected. If they are not, then the switch is likely dirty, corroded, or damaged somehow. If you don't want to use the DC jack, you can connect pins 3 and 4 together with a wire.
+- If you are testing voltages by using an A/C adapter plugged into the DC jack, make sure D1 is in the correct orientation and F2 isn't blown.
 
 If SW doesn't read a voltage with the switch on, your power switch is potentially damaged or too dirty/oxidized.
 
@@ -69,6 +79,8 @@ If you get a garbled image, or no image at all (but the screen still lights up),
 - Check to make sure all legs of the CPU, FFC, and RAM have a good connection to the board. Missing any one of these pins could cause the screen to not work.
 - Once again, try the IPS kit inside an actual Game Boy Color, if you have one available to test.
 
+If you have an image on the screen, but it has odd colors, or freezes, or something else, check the section at the bottom of this post for information on specific troubleshooting tips for the CPU and RAM.
+
 If you still have problems with the IPS kit not working properly, you can continue to step 5 to check the audio output. This might point you to a problem elsewhere on the CPU board.
 
 ### 5) Testing DMGC-HDP-01 and audio output
@@ -106,3 +118,15 @@ Make sure the power LED turns on when you turn the power on (did you put it in b
 - Make sure the cables are inserted in the connectors all the way and the bales are pressed in all the way. Clean out any leftover flux that might be inside the connectors when you soldered them on.
 
 At this point you should also have the speaker installed. If after turning the system on, you don't get any sound, check the HP and GND pins on the headphone board or CPU board - the HP pin should be shorted to GND when headphones are not inserted. If the HP pin is not shorted to GND, then the speaker won't output any sound. You have a dirty or damaged headphone jack - clean or replace. You can manually short HP to GND with a wire to check the audio output of the speaker if you'd like.
+
+## Troubleshooting Common Issues Related to CPU and RAM
+
+Depending on the problem you're encountering, it could be worth reflowing the pins on the CPU that correspond to the aspect you're having problems with.
+- For miscolored screens, reflow the top display pins.
+- For *glitchy* screens, or frozen/all-white screens, reflow the SRAM pins.
+- If you're missing button inputs, reflow the bottom left corner button pins.
+- If you have games that don't start up properly and hang at the Nintendo logo during start-up, display a glitchy Nintendo logo, or randomly freeze during gameplay, reflow the cartridge pins and clean your cartridge connector. The freezing may also be caused by poorly connected SRAM as well.
+- Three link port pins are on the bottom right, but there is one lone one at the top.
+- In general, reflowing the clock and power pins (colored red, pink, and black) can solve problems as well.
+
+![image](https://user-images.githubusercontent.com/97127539/235403819-e2aaaf66-5f18-482f-b601-76027f41c5d1.png)
