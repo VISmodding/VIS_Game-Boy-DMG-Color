@@ -8,7 +8,7 @@ This is a modified version of the [MouseBitLab](https://github.com/MouseBiteLabs
 
 ## UPDATED BOARD FILE!!!
 
-The 5v line sent to the IPS board is now a totally different line than the filtered 5v line used by the mainboard and audio board. This separation allows to elimination of all the noise added on the 5v line by IPS LCD and RGB LEDs. This means cleaner audio whose noise is amplified with 1 Watt speaker and very high volume. The new file is named *Gerber_DMGC_VIS_variant_low_noise_1_mm* and, in the case you have already produced the old file named *Gerber_DMGC_VIS_variant_1_mm* send me an email and I will explain how you can act to add the new feature on the old version.
+The 5v line sent to the IPS board is now a totally different line than the filtered 5v line used by the mainboard and audio board. This separation allows to reduce the noise added on the 5v line by IPS LCD and RGB LEDs. This means cleaner audio whose noise is amplified with 1 Watt speaker and very high volume. The new file is named *Gerber_DMGC_VIS_variant_low_noise_1_mm* and, in the case you have already produced the old file named *Gerber_DMGC_VIS_variant_1_mm* send me an email and I will explain how you can act to add the new feature on the old version.
 
 ## Warning: 
 
