@@ -2,7 +2,7 @@
 
 This is a modified version of the [MouseBitLab](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color) DMGC project. The changes I have made are the following:
 - Lipo power board
-- Audio board with all the audio circuits on it in which 1w speaker or the original speaker is directly connected (Audio is not sent to the IPS front PCB and, for this reason, any power absorbing on the front PCB does not affect audio)
+- Audio board with all the audio circuits on it in which 1w speaker or the original speaker is directly connected (Audio is not sent to the IPS front PCB and, for this reason, any power absorbing on the front PCB affect a little bit the audio)
 - DMG donor is not required (only the link port is needed, and it can be sourced directly from the 4-player adapter DMG-07 which is cheap and can source 3 link ports)
 - Since the power DC is a new 2.5A jack, the problems related to it in the original DMGC are solved in this version  (DC Jack is a 2.5x0.7mm Jack, and you can use a USB-C adapter with a standard USB-C 5v charger. Do not exceed 6v otherwise the charger will be broken).
 
