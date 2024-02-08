@@ -13,9 +13,13 @@ This is my design for an original Game Boy (model name DMG) with native Game Boy
 
 The code name for this project is DMGC. This console uses four PCBs, just as the original DMG model did - a CPU board (DMGC-CPU), display board (DMGC-IPS), power board (DMGC-PWR), and headphone board (DMGC-HDP). All circuit board assemblies have their own separate folders in this repository which contain detailed descriptions of operation, source files for schematics and board layouts (designed using Eagle), exported Gerber files, and some other relevant files. 
 
+**Do you want to make one?** Then you NEED TO READ this entire page. Seriously. All your questions will be answered.
+
 ## Disclaimer
 
-**Before I go any further, please read this VERY important disclaimer, if you are thinking about making this yourself.**
+**Before I go any further, please read this VERY important disclaimer, if you are thinking about making this yourself. Don't let this picture happen to you!**
+
+![image](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/assets/97127539/a9f60f46-4bb5-462a-b314-5a9ee38e7c4d)
 
 I made this project first and foremost **for my own purposes**. Nearly all of the features I have included are things I **personally** wanted. I have tried my hardest to make the project modular, if others would like to improve or change things easily, and I have also tried very hard to make the design somewhat less prone to potential errors during assembly (such as spacing out power pins on the FFC connectors). But in the end, every decision I made was for what I wanted the final product to be, with my skill level in mind.
 
@@ -25,7 +29,7 @@ Schematics, gerbers, and the BOM are provided in the various folders. If you cho
 
 **DO NOT attempt this project if you are uncomfortable or inexperienced with detailed electronics troubleshooting, or are not proficient in soldering! You will AT MINIMUM need to be proficient in drag soldering and hot air reflowing. If you have not gained proficiency in these soldering skills, DO NOT ATTEMPT THIS PROJECT.**
 
-(If you attempt the build, start with attempting to assemble DMGC-PWR-01. This is the toughest board to assemble, and it requires no donor components.)
+If you attempt the build, start with trying to assemble DMGC-PWR-01. This is the toughest board to assemble, and it requires no donor components.
 
 ## Bill of Materials (BOM)
 
@@ -132,7 +136,7 @@ Note that the IPS kit I have listed is the *easiest* IPS kit to use that is comp
 
 You can check out Tito's video on the DMGC to get an idea of how the assembly process generally goes.
 
-[![MachoNacho DMGC Video](https://img.youtube.com/vi/4U8Tqu7uxLo/maxresdefault.jpg)](https://youtu.be/4U8Tqu7uxLo?t=352)
+[![MachoNacho DMGC Video](https://img.youtube.com/vi/4U8Tqu7uxLo/maxresdefault.jpg)](https://youtu.be/4U8Tqu7uxLo)
 
 Here are some pictures of the assembly process *after* testing the functionality of all the boards separately. Detailed images of the circuit boards alone are shown in their respective folders. These pictures are of a previous revision, v1.2, but the process remains the same. You may notice some minor cosmetic differences in these pictures from the current revision boards.
 
@@ -146,7 +150,7 @@ Before placing the power switch cover in, I cut a notch in it so that it wouldn'
 
 ![image](https://user-images.githubusercontent.com/97127539/184758903-56ca36e9-f98c-49bb-ae86-029ce5714033.png)
 
-After the back half was done, I prepared the Q5 board solder pads. I cut six 30 gauge wire segments and soldered them on the brightness, palette, battery, and OSD input pads. These will be soldered to the rear of the IPS board after installed.
+After the back half was done, I prepared the Q5 board solder pads. I cut six 30 gauge wire segments and soldered them on the brightness, palette, battery, and OSD input pads. These will be soldered to the rear of the IPS board after installed. You don't need to include a wire to the GND pad.
 
 ![PXL_20220802_000117190](https://user-images.githubusercontent.com/97127539/184281803-ea1ec2ce-f2cf-489f-90db-754a21dc3f10.jpg)
 

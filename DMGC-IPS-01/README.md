@@ -3,7 +3,7 @@
 ![DMGC-IPS-01_2-3_scan](https://user-images.githubusercontent.com/97127539/212456708-4a70f93c-80a2-43e3-9a98-edb6a8041518.jpg)
 ![DMGC-IPS-01_2-0_ASSEMBLED](https://user-images.githubusercontent.com/97127539/197367472-31a2fdb9-6a8e-41a7-8fdc-138f91f944bb.jpg)
 
-*The image above of the assembled board is of v2.0, not the current revision of v2.3. The differences are very minor, see below.*
+*The image above of the assembled board is of v2.0, not the current revision of v2.4. The differences are very minor, see below.*
 
 The IPS board is in the front of the DMG shell. This holds the IPS screen kit (and has pads for interfacing with it), has the dimmable power LED, button inputs along with pads for optional LEDs, a navigation switch on the side for changing settings on the IPS screen and the backlit buttons, and the speaker.
 
@@ -77,6 +77,16 @@ The code is provided above (the .ino file) and you will likely need to install A
 
 If you're programming the ATTINY while it's installed on the IPS board, be sure to remove the cables from J1 and J2, otherwise your Arduino will attempt to backfeed the Gameboy and/or the IPS screen kit.
 
+You can use the 7-pin connector on the side of the IPS board to connect to the ATTINY if it's already on the PCB. (You don't need the 3.3V pin to program, it's there for helping you develop your own ATTINY code if you want to use it)
+
+![image](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/assets/97127539/a97c10c5-b4f5-4180-91f4-f4a405cafcff)
+
+**NOTE: VERSION DIFFERENCE**
+
+On the v2.0 and v2.1 boards, pins 1 and 8 are flipped! And the 3.3V pin does not exist.
+
+![image](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/assets/97127539/9d8de0d7-d491-436b-957c-0831eabe584b)
+
 ### Adding Reset Button Functionality
 
 - If you are using the push function of the navigation switch to reset the console instead of controlling the button LEDs (see more info on the CPU README), then **make sure to remove R10.** You will not have the ability to control Neopixel LEDs with this change (without other code/hardware modifications).
@@ -124,11 +134,11 @@ Here, I have provided links to components I used personally (or suitable replace
 
 ## Revision History
 
-### v2.4 (PLANNED)
+### v2.4
 
 - Added desensitizing capacitors (C9, C10) to reduce accidental touch inputs on IPS kit
 
-### v2.3 (for sale)
+### v2.3
 
 - Moved R9 to avoid interference with post
 - Moved warning text
