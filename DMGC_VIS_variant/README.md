@@ -27,7 +27,7 @@ Other **optional components to desolder** from a donor console are:
   - **All the electronic components** reported in the BOM file.
   - **Housing DMG shell case** (optional if you already have one).
   - **IPS LCD kit**.
-  - **3.7V 125054 Lipo battery** (optional if you want to use only the DC jack)  (see the FAQs [here](FAQs.md) for more details).
+  - **3.7V 125054 Lipo battery** (optional if you want to use only the DC jack).
   - **Kitsch-Bent full silicone buttons** (optional).
   - **1 Watt speaker** (optional if you want to use the original DMG speaker).  You can find (in the files of this project) the 3D model of the holder that you can use to take it in place without glue it to the housing shell (the holder fit the Retrosix 23 mm 1 watt speaker). If you buy 1 watt speaker please buy an high quality speaker from Retrosix (those that I use) or Handheldlegend avoiding cheap speakers.
   - **wires and ph2.0 housing connectors** (optional) reported in the last sections of the BOM file.
