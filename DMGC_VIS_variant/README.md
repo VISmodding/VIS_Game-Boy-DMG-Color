@@ -38,7 +38,7 @@ Other **optional components to desolder** from a donor console are:
 
 ## Boards compatibility
 
-  - Audio board is not compatible with exisisting gameboy boards.
+  - Audio board is not compatible with exisisting gameboy boards and also with my previous Gameboy realeses.
   - MouseBiteLabs front IPS board can be used but in this case lines and ground planes are not kept separated. Anyway, the speaker must be connected in any case to the audio board.
 
 ## Credits
