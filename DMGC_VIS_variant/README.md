@@ -6,6 +6,7 @@ This is a modified version of the [MouseBitLab](https://github.com/MouseBiteLabs
 - The audio board also has been modified in order to connect the speaker directly on it. For this reason the audio signals are not sent from the mainboard to the front board.
 - The DMG donor is not required here (only the link port is needed and it can be sourced directly from the 4-player adapter DMG-07 which is cheap and can source 3 link ports).
 - This DMGC VIS variant uses also a different DC jack since we need here of a jack capable to handle 2A current.
+- I provide also the mainboard for the CPU-06 (rev E): the version of the CPU with the RAM already in CPU.
 
 ## Disclaimer
 
