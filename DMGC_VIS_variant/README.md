@@ -35,8 +35,8 @@ Other **optional components to desolder** from a donor console are:
     -	RGRS: <a href="https://retrogamerepairshop.com/collections/dmg-lenses/products/funnyplaying-dmg-q5-ips-lens?variant=39626455187628">FunnyPlaying DMG Q5 IPS Lens</a>
     - FunnyPlaying: <a href="https://funnyplaying.com/products/dmg-retro-pixel-ips-glass-lens">DMG RetroPixel IPS Glass Lens</a>
   - **Screen Centering Bracket:** In the STL_3D_printer_files you can find:
-    -  dmgc_q5_bracket.stl: it is the original bucket design (the screen is not covered by the bracket).
-    -  Vis_variant_LCD_bracket.stl: it is a variant in which the screen is behind the bracket and in this case you need to apply hot glue to keep fix it.
+    -  *dmgc_q5_bracket.stl*: it is the original bucket design (the screen is not covered by the bracket).
+    -  *Vis_variant_LCD_bracket.stl*: it is a variant in which the screen is behind the bracket and in this case you need to apply hot glue to keep fix it.
   - **3.7V 125054 Lipo battery** (optional if you want to use only the DC jack).
   - **Kitsch-Bent full silicone buttons** (optional).
   - **1 Watt speaker** (optional if you want to use the original DMG speaker).  You can find (in the files of this project) the 3D model of the holder that you can use to take it in place without glue it to the housing shell (the holder fit the Retrosix 23 mm 1 watt speaker). If you buy 1 watt speaker please buy an high quality speaker from Retrosix (those that I use) or Handheldlegend avoiding cheap speakers.
