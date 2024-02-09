@@ -15,7 +15,7 @@ This is a modified version of the [MouseBitLab](https://github.com/MouseBiteLabs
 ## Required Donor parts
 
 In this project, the **strictly required donor parts** are only 
-  - the **CPU** (that can be sourced from a donor CGB mainboard or a SNES super Gameboy DMG adapter).
+  - the **CPU** (that can be sourced from a donor CGB mainboard or a SNES super Gameboy DMG adapter). For rev E version you need to grab also U11 component from the donor GBC.
   - the **link-port** (that can be sourced from a donor DMG mainboard or from a 4-player adapter DMG-07).
 
 Other **optional components to desolder** from a donor console are:
