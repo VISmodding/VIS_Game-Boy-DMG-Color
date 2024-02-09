@@ -20,7 +20,8 @@ In this project, the **strictly required donor parts** are only
 
 Other **optional components to desolder** from a donor console are:
   - **RAM** chips (can be sourced from a donor CGB mainboard).
-  - **Card slot connector, volume wheel, and quartz oscillator** can be sourced from a donor DMG mainboard or can be simply purchased on Aliexpress.
+  - **Card slot connector and volume wheel** can be sourced from a donor DMG mainboard or can be simply purchased on Aliexpress.
+  - **Quartz oscillator** can be sourced from the donor GBC or it can be purchased (see BOM file).
   - **Power switch** can be sourced from a donor DMG mainboard, or a brand new switch can be purchased at any electronic components shop (see BOM file).
 
 ## Required Parts to purchase or reuse
