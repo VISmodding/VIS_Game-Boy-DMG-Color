@@ -11,7 +11,7 @@ The string "JLCJLCJLCJLC" is not present in all the following PCB images since I
 
 ## Mainboard PCB (2 layers PCB)
 
-Produce the mainboard PCB with 1 mm or 1.2 mm thickness.
+Produce the mainboard PCB with 1 mm or 1.2 mm thickness. Here you have the CPU+RAM version or the RAM-IN-CPU (rev E) version.
 
 ![image](images/DMGC_mainboard.png)
 
