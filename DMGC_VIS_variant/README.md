@@ -53,6 +53,10 @@ Other **optional components to desolder** from a donor console are:
   - Audio board is not compatible with exisisting gameboy boards and also with my previous Gameboy realeses.
   - MouseBiteLabs front IPS board can be used but in this case lines and ground planes are not kept separated. Anyway, the speaker must be connected in any case to the audio board.
 
+## How produce the PCBs
+
+link [here](PCB_info.md).
+
 ## Credits
 
   - [Bucket Mouse](https://github.com/MouseBiteLabs/) for the [DMGC](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color) project from which I started for this variant.
