@@ -25,12 +25,12 @@ Produce the audio PCB with 1 mm or 1.2 mm thickness.
 
 Produce Audio Jack raiser PCB with 1.6 mm thickness. If producer contact you by telling that PCB can break you answer to accept this risk and move on the production.
 
-![image](images/DMGC_audio_taller.png)
+![image](images/audio_taller.png)
 
 ## IPS front PCB (2 layers PCB)
 
 Produce the IPS front PCB with 1 mm or 1.2 mm thickness (I suggest ENIG surface finish for better buttons feeling if you don't use tactile buttons). 
-![image](images/IPS_PCB.png)
+![image](images/DMGC_IPS_PCB.png)
 
 ## Audio connector PCB (2 layers PCB)
 
