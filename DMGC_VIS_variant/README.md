@@ -1,6 +1,10 @@
 ## This readme file is not it is not completed yet until you read this message...
 ## Boards have been tested. So ensure to download the last version of the production files before production since they have been fixed after the first upload
 
+![image](images/DMGC_VIS.png)
+
+Detailed PCB images can be seen in the production info section [here](PCB_info.md).
+
 This is a modified version of the [MouseBitLab](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color) DMGC project. The changes I have made are the following:
 - The power board has been placed on the mainbopard (with a proper separated plane) and it uses a Lipo battery (clearly it includes also the charger circuit).
 - The audio board also has been modified in order to connect the speaker directly on it. For this reason the audio signals are not sent from the mainboard to the front board.
