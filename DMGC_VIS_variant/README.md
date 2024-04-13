@@ -1,5 +1,5 @@
 ## This readme file is not it is not completed yet until you read this message...
-## Also the boards, if you read this message have not tested after some fix. I'm confident they are ok but I cannot ensure this until I test them.
+## Boards have been tested. So ensure to download the last version of the production files before production since they have been fixed after the first upload
 
 This is a modified version of the [MouseBitLab](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color) DMGC project. The changes I have made are the following:
 - The power board has been placed on the mainbopard (with a proper separated plane) and it uses a Lipo battery (clearly it includes also the charger circuit).
