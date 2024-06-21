@@ -1,7 +1,7 @@
 ## This readme file is not it is not completed yet until you read this message...
 ## Boards have been tested. So ensure to download the last version of the production files before production since they have been fixed after the first upload
 
-![image](images/DMGC_VIS.png)
+![image](images/DMGC_VIS.jpg)
 
 Detailed PCB images can be seen in the production info section [here](PCB_info.md).
 
