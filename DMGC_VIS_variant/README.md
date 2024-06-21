@@ -3,6 +3,7 @@
 
 ![image](images/DMGC_VIS.jpg)
 
+YouTube video [here](https://www.youtube.com/watch?v=p8AL-SyXEpo&t=13s&ab_channel=V1sModding).
 Detailed PCB images can be seen in the production info section [here](PCB_info.md).
 
 This is a modified version of the [MouseBitLab](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color) DMGC project. The changes I have made are the following:
