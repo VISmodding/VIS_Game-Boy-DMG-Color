@@ -37,3 +37,9 @@ Produce the IPS front PCB with 1 mm or 1.2 mm thickness (I suggest ENIG surface 
 Produce the Audio connector PCB with 1 mm or less thickness.
 
 ![image](images/audio_connector.png)
+
+## IPS OSD connector PCB (2 layers PCB)
+
+Produce the IPS OSD connector PCB with 0.8 mm or less thickness.
+
+![image](images/DMGC_IPS_conn.png)
