@@ -8,8 +8,6 @@ In the following screenshot you find the way to do this.
 
 ![image](images/JLCPCB_ordering.png)
 
-The string "JLCJLCJLCJLC" is not present in all the following PCB images since I added it after doing them but they are present in the production files.
-
 ## Mainboard PCB (2 layers PCB)
 
 Produce the mainboard PCB with 1 mm or 1.2 mm thickness. Here you have the CPU+RAM version or the RAM-IN-CPU (rev E) version.
