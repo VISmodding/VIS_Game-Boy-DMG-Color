@@ -6,7 +6,7 @@ YouTube video [here](https://www.youtube.com/watch?v=p8AL-SyXEpo&t=13s&ab_channe
 Detailed PCB images can be seen in the production info section [here](PCB_info.md).
 
 This is a modified version of the [MouseBitLab](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color) DMGC project. The changes I have made are the following:
-- The power board has been placed on the mainbopard (with a proper separated plane) and it uses a Lipo battery (clearly it includes also the charger circuit).
+- The power board has been placed on the mainboard (with a proper separated plane) and it uses a Lipo battery (clearly it includes also the charger circuit).
 - The audio board also has been modified in order to connect the speaker directly on it. For this reason the audio signals are not sent from the mainboard to the front board.
 - The DMG donor is not required here (only the link port is needed and it can be sourced directly from the 4-player adapter DMG-07 which is cheap and can source 3 link ports).
 - This DMGC VIS variant uses also a different DC jack since we need here of a jack capable to handle 2A current.
