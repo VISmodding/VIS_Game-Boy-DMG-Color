@@ -62,6 +62,22 @@ Other **optional components to desolder** from a donor console are:
 
 link [here](PCB_info.md).
 
+## How populate PCBs
+
+Start by populating the power circuit shown in the following image.
+
+![image](DMGC_power_circuit.png)
+
+After that test the voltages on the back by using the pads highlighted in the following image ("Additional CPU lines voltage" pad is present only for the REV E. Here you should get something between 1.8 - 2.5 V) and test also the Lipo charger.
+
+![image](images/DMGC_power_check.png)
+
+At this point you can finish to populate all the PCBs similarly to the MouseBitLabs DMGC. For the audio/USB-C connector please referr to the final part of the DMG v2 video [link](https://www.youtube.com/watch?v=zv3Ng8fEEQI&t=5s&ab_channel=V1sModding).
+
+Finally, all the 7 mm tatcile switches jave the same orientation. Referr to the following image for the orientation.
+
+![image](images/tactiles_orientation.png)
+
 ## Credits
 
   - [Bucket Mouse](https://github.com/MouseBiteLabs/) for the [DMGC](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color) project from which I started for this variant.
