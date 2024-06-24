@@ -89,7 +89,7 @@ Other details can be found on the YouTube video [here](https://www.youtube.com/w
 
   - [Kamicane](https://github.com/kamicane/) for the [Super DMG](https://github.com/kamicane/Super-DMG-01) project from wich I get the audio board shape.
 
-  - [Reverse Retro Engineering](https://linktr.ee/reverseretro) for the help in design the rev e CPU.
+  - [Reverse Retro Engineering](https://linktr.ee/reverseretro) for the help in design the rev E CPU.
 
 ## Acknowledgements
 
