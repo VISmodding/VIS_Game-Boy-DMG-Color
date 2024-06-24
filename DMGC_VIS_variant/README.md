@@ -108,6 +108,9 @@ I have several stuffs in mind, and I will also share my normal Gameboy DMG work 
 
 **discord**: you can find me as *vis_modding* on several servers (BennVenn, Mouse Bit Lab, Retrosix modding, Game Boy, Gameboy makers).
 
+![image](images/Gameboy_VIS_examples.jpg)
+
+
 
 
 
