@@ -18,7 +18,7 @@ This is a modified version of the [MouseBitLab](https://github.com/MouseBiteLabs
 
 ## Security information for Lipo Battery
 The battery is physically distant form the tp4056 linear charger. In addition, the following features are implemented:
-- Overcharge and overdischarge protections implemented with the widely used and widespread combo FS8205A - DW01A.
+- Overcharge and overdischarge protections achieved through the widely used and widespread combo FS8205A - DW01A.
 - Load sharing: you can safely play while charging the battery since the battery is disconnected from the load while charging (I use the same circuit of SYF Game Gear since its creator allowed me to use it). 
 
 ## Required Donor parts
