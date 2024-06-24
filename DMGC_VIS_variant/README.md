@@ -20,7 +20,7 @@ This is a modified version of the [MouseBitLab](https://github.com/MouseBiteLabs
 The battery is physically distant form the charger. In addition are implemented the following features:
 - Overcharge protection.
 - Overdischarge protection.
-- Load sharing: you can safely play while charging the battery since the battery is disconnected from the load while charging (I use the same circuit of SYF Game Gear to do this since its creator allowe me to use it). 
+- Load sharing: you can safely play while charging the battery since the battery is disconnected from the load while charging (I use the same circuit of SYF Game Gear since its creator allowed me to use it). 
 
 ## Required Donor parts
 
