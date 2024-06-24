@@ -16,6 +16,12 @@ This is a modified version of the [MouseBitLab](https://github.com/MouseBiteLabs
 
 **This is a DIY project for electronic enthusiasts. For this reason, I am not responsible for any damage incurred while attempting this project or after completion of the project. You alone accept all risk since you are 100% liable for damage to yourself or your property.**
 
+## Security information for Lipo Battery
+The battery is physically distant form the charger. In addition are implemented the following features:
+- Overcharge protection.
+- Overdischarge protection.
+- Load sharing: you can safely play while charging the battery since the battery is disconnected from the load while charging (I use the same circuit of SYF Game Gear to do this since its creator allowe me to use it). 
+
 ## Required Donor parts
 
 In this project, the **strictly required donor parts** are only 
