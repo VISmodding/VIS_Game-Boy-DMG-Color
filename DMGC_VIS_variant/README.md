@@ -1,4 +1,3 @@
-## This readme file is not it is not completed yet until you read this message...
 ## Ensure to download the last version of the production files before production (v.4.0 for rev E and v4.1 for rev A, B, C or D).
 
 ![image](images/DMGC_VIS.jpg)
