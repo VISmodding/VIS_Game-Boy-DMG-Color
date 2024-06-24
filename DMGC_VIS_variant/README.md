@@ -66,7 +66,7 @@ link [here](PCB_info.md).
 
 Start by populating the power circuit shown in the following image.
 
-![image](DMGC_power_circuit.png)
+![image](images/DMGC_power_circuit.png)
 
 After that test the voltages on the back by using the pads highlighted in the following image ("Additional CPU lines voltage" pad is present only for the REV E. Here you should get something between 1.8 - 2.5 V) and test also the Lipo charger.
 
@@ -76,7 +76,7 @@ At this point you can finish to populate all the PCBs similarly to the MouseBitL
 
 Finally, all the 7 mm tatcile switches jave the same orientation. Referr to the following image for the orientation.
 
-![image](images/tactiles_orientation.png)
+![image](images/tactiles_orientation.jpg)
 
 ## Credits
 
