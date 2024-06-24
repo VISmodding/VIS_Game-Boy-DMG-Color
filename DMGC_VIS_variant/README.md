@@ -74,9 +74,11 @@ After that test the voltages on the back by using the pads highlighted in the fo
 
 At this point you can finish to populate all the PCBs similarly to the MouseBitLabs DMGC. For the audio/USB-C connector please referr to the final part of the DMG v2 video [link](https://www.youtube.com/watch?v=zv3Ng8fEEQI&t=5s&ab_channel=V1sModding).
 
-Finally, all the 7 mm tatcile switches jave the same orientation. Referr to the following image for the orientation.
+Finally, all the 7 mm tatcile switches have the same orientation. Referr to the following image for the orientation.
 
 ![image](images/tactiles_orientation.jpg)
+
+Other details can be found on the YouTube video [here](https://www.youtube.com/watch?v=p8AL-SyXEpo&t=13s&ab_channel=V1sModding).
 
 ## Credits
 
