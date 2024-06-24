@@ -111,7 +111,7 @@ I have several stuffs in mind, and I will also share my normal Gameboy DMG work 
 
 **email**: vis.modding@gmail.com <br />
 
-**discord**: you can find me as *vis_modding* on several servers (BennVenn, Mouse Bit Lab, Retrosix modding, Game Boy, Gameboy makers).
+**discord**: you can find me as *vis_modding* on several servers (BennVenn, Mouse Bit Lab, Retrosix modding, Game Boy, Gameboy makers, Cybdyn Systems, Pixel FX Official Discord, Modded Gameboy Club).
 
 ![image](images/Gameboy_VIS_examples.jpg)
 
